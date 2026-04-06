@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (Keep your data local)
+db.sqlite3
+db.sqlite3-journal
+
+# Environments (Do not track your virtual environment)
+.venv/
+venv/
+ENV/
+env/
+
+# Sensitive data (Secrets, API keys)
+.env
+local_settings.py
+
+# Static and Media files
+# Only ignore these if they are auto-generated or user-uploaded
+/static_root/
+/media/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.mypy_cache/
+
